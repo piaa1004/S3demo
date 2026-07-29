@@ -1,0 +1,140 @@
+# ======================================
+# Maven
+# ======================================
+
+# Maven build output
+target/
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven generated files
+pom.xml.*.backup
+pom.xml.releaseBackup
+release.properties
+
+
+# ======================================
+# Spring Boot
+# ======================================
+
+# Spring Boot logs
+*.log
+
+# Spring Boot generated pid file
+*.pid
+
+# Application local configuration
+application-local.properties
+application-local.yml
+
+# Environment files
+.env
+.env.*
+
+
+# ======================================
+# IntelliJ IDEA
+# ======================================
+
+.idea/
+
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ module files
+out/
+
+
+# ======================================
+# Eclipse / STS
+# ======================================
+
+.classpath
+.project
+.settings/
+
+.factorypath
+
+# Spring Tool Suite
+.springBeans
+.sts4-cache/
+
+
+# ======================================
+# VS Code
+# ======================================
+
+.vscode/
+
+
+# ======================================
+# OS generated files
+# ======================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ======================================
+# Java
+# ======================================
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Generated files
+generated/
+
+
+# ======================================
+# Test / Coverage
+# ======================================
+
+# JUnit reports
+surefire-reports/
+
+# JaCoCo
+jacoco.exec
+jacoco-report/
+
+
+# ======================================
+# Database / Local development
+# ======================================
+
+# H2 database
+*.mv.db
+*.trace.db
+
+# SQLite
+*.sqlite
+*.db
+
+
+# ======================================
+# Docker
+# ======================================
+
+# Docker override files
+docker-compose.override.yml
+
+
+# ======================================
+# IDE temporary files
+# ======================================
+
+*.swp
+*.swo
+*~

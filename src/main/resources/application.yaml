@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: S3demo
+    
+    
+cloud:
+  aws:
+    s3:
+      bucket: 
+      stack.auto: false
+    region:
+      static: ap-northeast-2
+    credentials:
+      accessKey: 
+      secretKey: 
